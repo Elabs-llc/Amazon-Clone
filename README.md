@@ -17,7 +17,7 @@ This project is a Flutter app that replicates the functionality and design of Am
 
 1. Clone the repository to your local machine
 ```bash
-git clone https://github.com/your-repository-url.git
+git clone https://github.com/Elabs-llc/Amazon-Clone.git
 ```
 
 2. Navigate to the project directory
@@ -34,6 +34,19 @@ flutter pub get
 ```bash
 flutter run
 ```
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
 
 ## Configuration
 
@@ -55,19 +68,3 @@ If you would like to contribute to the development of this project, please follo
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
