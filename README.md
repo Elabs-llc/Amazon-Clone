@@ -1,4 +1,5 @@
-# shopify
+# Amazon Clone 
+#### by Edwin Asare
 
 A new Flutter project.
 
