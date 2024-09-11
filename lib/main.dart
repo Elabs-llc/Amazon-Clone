@@ -13,7 +13,7 @@ class Shopify extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AuthScreen(),
+      home: const AuthScreen(),
       theme: theme,
     );
   }

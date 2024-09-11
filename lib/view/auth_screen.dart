@@ -28,7 +28,7 @@ class _AuthScreenState extends State<AuthScreen> {
       appBar: AppBar(
         centerTitle: true,
         title: Image(
-          image: AssetImage('assets/images/amazon_logo.png'),
+          image: const AssetImage('assets/images/amazon_logo.png'),
           height: height*0.04,
         ),
       ),
@@ -269,12 +269,12 @@ class _AuthScreenState extends State<AuthScreen> {
           /// 
           
           /// login button
-          ElevatedButton(onPressed: (){}, 
-            child: Text('Continue', style: textTheme.displaySmall,),
+          ElevatedButton(onPressed: (){},
             style: ElevatedButton.styleFrom(
               minimumSize: Size(width*0.88, height*0.06),
               backgroundColor: amber,
-            ),
+            ), 
+            child: Text('Continue', style: textTheme.displaySmall,),
           ),
           /// end login button
           /// 
@@ -288,7 +288,7 @@ class _AuthScreenState extends State<AuthScreen> {
             text: TextSpan(
               children: [
                 TextSpan(
-                  text: "By continuing, you agree to ${Helpers.AppName}\'s ",
+                  text: "By continuing, you agree to ${Helpers.AppName}'s ",
                   style: textTheme.labelMedium,
                 ),
                 TextSpan(
@@ -486,12 +486,12 @@ class _AuthScreenState extends State<AuthScreen> {
           /// 
           
           /// login button
-          ElevatedButton(onPressed: (){}, 
-            child: Text('Verify phone number', style: textTheme.displaySmall,),
+          ElevatedButton(onPressed: (){},
             style: ElevatedButton.styleFrom(
               minimumSize: Size(width*0.88, height*0.06),
               backgroundColor: amber,
-            ),
+            ), 
+            child: Text('Verify phone number', style: textTheme.displaySmall,),
           ),
           /// end login button
           /// 
@@ -505,7 +505,7 @@ class _AuthScreenState extends State<AuthScreen> {
             text: TextSpan(
               children: [
                 TextSpan(
-                  text: "By continuing, you agree to ${Helpers.AppName}\'s ",
+                  text: "By continuing, you agree to ${Helpers.AppName}'s ",
                   style: textTheme.labelMedium,
                 ),
                 TextSpan(
@@ -676,7 +676,7 @@ class ButtomAuthScreenWidget extends StatelessWidget {
         ///
         ///
         
-        Text("${Helpers.CopyRightNotice}", style: textTheme.labelMedium!.copyWith(color: grey),),
+        Text(Helpers.CopyRightNotice, style: textTheme.labelMedium!.copyWith(color: grey),),
     
       ],
     );
