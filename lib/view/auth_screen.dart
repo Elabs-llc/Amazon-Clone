@@ -2,7 +2,6 @@ import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:shopify/constants/helpers.dart';
 import 'package:shopify/uitils/colors.dart';
-import 'package:shopify/uitils/theme.dart';
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
